@@ -66,6 +66,14 @@ Date: 2/05/2006
    .center { margin: 0 auto; text-align: center;}
    .bold { font-weight: bold;}
    .comment { color:#666; }
+   .card { background-color: #393939; padding: 20px;}
+   .smallbr { display:block; margin-top:6px; line-height:22px; }
+   .rainbow {background: linear-gradient(90deg, red,yellow,green,rgb(89, 89, 236));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: bold;
+    text-align: center;}
    
    /**** Site Container ****/
    
@@ -124,7 +132,7 @@ Date: 2/05/2006
    
    /***Content***/
    
-   #content { float: right; width: 510px; margin-top: 30px; margin-left: 2px; }
+   #content { float: right; width: 520px; margin-top: 30px; margin-left: 2px; }
    
    #content a { color:#D01A71; font-weight: bold;}
    
